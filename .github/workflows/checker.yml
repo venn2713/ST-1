@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
     - run: pwd
-    - run: python3 /home/runner/work/ADS-1/ADS-1/src/checker.py /home/runner/work/ADS-1/ADS-1/src/alg.cpp 2
+    - run: python3 /home/runner/work/ST-1/ST-1/src/checker.py /home/runner/work/ST-1/ST-1/src/alg.cpp 2
