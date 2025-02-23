@@ -34,7 +34,7 @@ TEST(NextPrimeTest, BasicCases) {
 TEST(SumPrimeTest, BasicCases) {
     EXPECT_EQ(sumPrime(2), 0);
     EXPECT_EQ(sumPrime(3), 2);
-    EXPECT_EQ(sumPrime(5), 10); // 2 + 3 + 5
-    EXPECT_EQ(sumPrime(10), 17); // 2 + 3 + 5 + 7
-    EXPECT_EQ(sumPrime(20), 77); // 2+3+5+7+11+13+17+19
+    EXPECT_EQ(sumPrime(5), 5);
+    EXPECT_EQ(sumPrime(10), 17);
+    EXPECT_EQ(sumPrime(20), 77);
 }
